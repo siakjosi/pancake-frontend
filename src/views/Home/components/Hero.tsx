@@ -98,7 +98,7 @@ const Hero = () => {
         <InnerWrapper>{theme.isDark ? <SlideSvgDark width="100%" /> : <SlideSvgLight width="100%" />}</InnerWrapper>
       </BgWrapper>
       <Flex
-        position="relative"
+        position="center"
         flexDirection={['column-reverse', null, null, 'row']}
         alignItems={['flex-end', null, null, 'center']}
         justifyContent="center"
@@ -119,7 +119,7 @@ const Hero = () => {
             </Link>
           </Flex>
         </Flex>
-        <Flex
+        {/* <Flex
           height={['192px', null, null, '100%']}
           width={['192px', null, null, '100%']}
           flex={[null, null, null, '1']}
@@ -132,7 +132,7 @@ const Hero = () => {
           <StarsWrapper>
             <CompositeImage {...starsImage} />
           </StarsWrapper>
-        </Flex>
+        </Flex> */}
       </Flex>
     </>
   )
